@@ -1,0 +1,71 @@
+TMS
+2764JL-45
+MEP8414
+TI 8K X 8 UVPROM
+
+M344
+LM
+555CN
+555 timer
+
+8420
+LM340T
+5
+7805
+Voltage regulator (5V 1A?)
+
+Toshiba Japan
+TC4093BP
+8441H
+Quad 2-input NAND Schmitt trigger
+
+PB420
+NMC
+9306N
+???
+
+8449 2
+EF68A21P
+Peripheral Interface Adapter
+(Dual 8-bit I/O ports + 4 control lines)
+
+74LS373NA
+VV8409 BP
+Octal D-type transparent latch
+
+4E1
+HD63A03RP
+JAPAN
+6800 series CPU
+
+18420
+DS1488N
+MC1488P
+Quad (RS-232) line driver 
+
+FERRANTI
+ZN 463 E
+8211
+???
+
+CD4051BE
+RCA H 423
+8:1 analog multiplexer
+
+Toshiba JAPAN
+TC4049BP
+9427H
+Hex buffer
+
+ULN2003A
+88449
+7-way high-voltage/-current darlington transistor array
+
+M8424
+LM
+393N
+Dual Comparator
+
+8362A
+LF351N
+Op-amp
