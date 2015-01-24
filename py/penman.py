@@ -1,6 +1,7 @@
 import math
 import os
 import fdpexpect
+import serial
 import sys
 
 # References:
@@ -20,10 +21,9 @@ _debug_cmds = True
 
 class Penman(object):
     def __init__(self):
-        # FIXME: Need configuration of this:
-        fd = os.open("/dev/ttyUSB0", os.O_RDWR | os.O_NONBLOCK | os.O_NOCTTY)
-        # FIXME: Set baud rate etc. (9600 8N1)
-        self._exp = fdpexpect.fdspawn(fd)
+        # FIXME: Need configuration of the port name:
+        self._s = serial.Serial("/dev/ttyUSB0", 9600)
+        self._exp = fdpexpect.fdspawn(self._s.fileno())
         self._pen = 'U'
         self._pos = [0, 0]
         self._heading = 0
