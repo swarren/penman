@@ -5,10 +5,13 @@ bom/
     Images of the device, and a list of the chips.
 
 data-file/
-    Files containing pre-rendered command script.
+    Files containing pre-rendered command scripts.
 
 py/
     Python code to draw shapes, send pre-rendered data files.
+
+vb/
+    Visual Basic code from http://tnotes.de, used as reference.
 
 References:
 http://tnotes.de/PenMan
