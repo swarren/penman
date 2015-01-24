@@ -22,7 +22,8 @@ Quad 2-input NAND Schmitt trigger
 PB420
 NMC
 9306N
-???
+256-bit EEPROM according to youtube comments at
+https://www.youtube.com/watch?v=mR8enP09RPI
 
 8449 2
 EF68A21P

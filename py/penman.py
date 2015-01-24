@@ -4,18 +4,9 @@ import fdpexpect
 import serial
 import sys
 
-# References:
-# http://tnotes.de/PenMan
-# http://tnotes.de/HPGL2penman
-# http://tnotes.de/penman/PenMan.zip
-#
-# You may need to connect with a terminal program and send "H" to home
-# the device before it'll accept "A" (absolute) movements. Sometimes they
-# seem to work right from power-on, other times not. Perhaps homing has
-# nothing to do with it, and my device is just flakey.
-#
-# It seems like the device is less and less accurate the longer it's been
-# turned on. I guess the motors overheat or something.
+# TODO:
+# Unify serial I/O logic with send.py
+# Split out Turtle wrapper class from Penman low-level serial I/O class
 
 _debug_cmds = True
 
