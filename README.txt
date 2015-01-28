@@ -13,6 +13,9 @@ py/
 vb/
     Visual Basic code from http://tnotes.de, used as reference.
 
+PenmanUserManual.pdf
+    The original manual, courtesy of John H on Youtube/Google+.
+
 References:
 http://tnotes.de/PenMan
 http://tnotes.de/HPGL2penman
